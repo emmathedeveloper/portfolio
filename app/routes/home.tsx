@@ -3,24 +3,6 @@ import {ArrowDownIcon, ArrowRightIcon, MailIcon, PhoneIcon} from "lucide-react";
 import MyArsenalGrid from "~/components/my-arsenal-grid";
 import XformerlyTwitter from "~/components/logos/twitter";
 import BottomNav from "~/components/bottom-nav";
-import type {Route} from "../../.react-router/types/app/+types/root";
-
-export function meta({}: Route.MetaArgs) {
-    return [
-        { title: "emmathedeveloper" },
-        { name: "description", content: "FullStack Web Developer" },
-        { name: "og:url", content: "https://emmathedeveloper.vercel.app" },
-        { name: "og:type", content: "website" },
-        { name: "og:title", content: "emmathedeveloper" },
-        { name: "og:description", content: "FullStack Web Developer" },
-        { name: "og:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: "emmathedeveloper" },
-        { name: "twitter:description", content: "FullStack Web Developer" },
-        { name: "twitter:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
-        { name: "twitter:site", content: "@emmathedev" },
-    ];
-}
 
 export default function Home() {
   return (

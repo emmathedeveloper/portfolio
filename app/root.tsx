@@ -29,20 +29,20 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "emmathedeveloper" },
-    { name: "description", content: "FullStack Web Developer" },
-    { name: "og:url", content: "https://emmathedeveloper.vercel.app" },
-    { name: "og:type", content: "website" },
-    { name: "og:title", content: "emmathedeveloper" },
-    { name: "og:description", content: "FullStack Web Developer" },
-    { name: "og:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: "emmathedeveloper" },
-    { name: "twitter:description", content: "FullStack Web Developer" },
-    { name: "twitter:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
-    { name: "twitter:site", content: "@emmathedev" },
-  ];
+    return [
+        { title: "emmathedeveloper" },
+        { name: "description", content: "FullStack Web Developer" },
+        { property: "og:url", content: "https://emmathedeveloper.vercel.app" },
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: "emmathedeveloper" },
+        { property: "og:description", content: "FullStack Web Developer" },
+        { property: "og:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
+        { property: "twitter:card", content: "summary_large_image" },
+        { property: "twitter:title", content: "emmathedeveloper" },
+        { property: "twitter:description", content: "FullStack Web Developer" },
+        { property: "twitter:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
+        { property: "twitter:site", content: "@emmathedev" },
+    ];
 }
 
 export function Layout({ children }: { children: React.ReactNode }) {
