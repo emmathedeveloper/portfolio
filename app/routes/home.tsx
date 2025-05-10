@@ -6,9 +6,10 @@ import MyArsenalGrid from "~/components/my-arsenal-grid";
 import XformerlyTwitter from "~/components/logos/twitter";
 import BottomNav from "~/components/bottom-nav";
 
+
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "FullStack Web Developer" },
+    { title: "emmathedeveloper" },
     { name: "description", content: "FullStack Web Developer" },
   ];
 }

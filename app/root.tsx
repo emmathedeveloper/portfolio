@@ -21,7 +21,27 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Cal+Sans&family=Instrument+Serif:ital@0;1&display=swap",
   },
+  {
+    rel: "icon",
+    type: "image/png",
+    href: "./logo.png"
+  }
 ];
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "emmathedeveloper" },
+    { name: "description", content: "FullStack Web Developer" },
+    { name: "og:title", content: "emmathedeveloper" },
+    { name: "og:description", content: "FullStack Web Developer" },
+    { name: "og:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "emmathedeveloper" },
+    { name: "twitter:description", content: "FullStack Web Developer" },
+    { name: "twitter:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
+    { name: "twitter:site", content: "@emmathedev" },
+  ];
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

@@ -1,5 +1,12 @@
 import WorkCard from "~/components/work-card";
+import type {Route} from "../../.react-router/types/app/routes/+types/home";
 
+export function meta({}: Route.MetaArgs) {
+    return [
+        { title: "emmathedeveloper" },
+        { name: "description", content: "What I've Made" },
+    ];
+}
 
 export default function WorksPage() {
 
