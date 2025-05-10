@@ -10,6 +10,8 @@ export function meta({}: Route.MetaArgs) {
     return [
         { title: "emmathedeveloper" },
         { name: "description", content: "FullStack Web Developer" },
+        { name: "og:url", content: "https://emmathedeveloper.vercel.app" },
+        { name: "og:type", content: "website" },
         { name: "og:title", content: "emmathedeveloper" },
         { name: "og:description", content: "FullStack Web Developer" },
         { name: "og:image", content: "https://emmathedeveloper.vercel.app/opengraph.png" },
