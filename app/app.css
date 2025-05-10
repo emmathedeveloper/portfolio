@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --font-cal-sans: "Cal Sans", sans-serif;
+    --font-instrument: "Instrument Serif", serif;
+
+    /*Colors*/
+    --color-background: #eee;
+    --color-foreground: #111;
+    --color-primary: #111;
+    --color-primary-foreground: #eee;
+    --color-accent: tomato;
+}
+
+
+@layer base {
+    html,
+    body {
+        @apply size-full font-instrument bg-background text-foreground scroll-smooth;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .emphasize span {
+        @apply text-accent
+    }
+}
+
+@layer components {
+    .max-width-wrapper {
+        @apply w-full md:max-w-[1200px]
+    }
+
+    .btn {
+        @apply p-4 rounded-full flex
+    }
+
+    .btn-primary {
+        @apply bg-primary text-primary-foreground
+    }
+
+    .btn-outline {
+        @apply border border-primary text-primary
+    }
+}
