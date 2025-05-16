@@ -12,6 +12,13 @@ export default function WorksPage() {
 
     const works = [
         {
+            imageSrc: "https://nonamenote.vercel.app/opengraph.png",
+            website: "https://nonamenote.vercel.app",
+            name: 'NoNameNote',
+            description: 'A lightweight, anonymous messaging platform. Share messages without identities. No sign-ups. No tracking. Just thoughts.',
+            repository: 'https://github.com/emmathedeveloper2/nonamenote'
+        },
+        {
             imageSrc: "https://repository-images.githubusercontent.com/969931985/919e9151-2364-4c40-b3a2-122a19c16222",
             name: 'MixStack',
             description: 'The modern auth starter template built with React Router v7, TailwindCSS, Drizzle ORM, and PostgreSQL.',
