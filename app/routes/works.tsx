@@ -12,7 +12,7 @@ export default function WorksPage() {
 
     const works = [
         {
-            imageSrc: "https://waitlyst.vercel.app/opengraph.png",
+            imageSrc: "https://waitlyst.vercel.app/opengraph-image.png",
             website: "https://waitlyst.vercel.app",
             name: 'waitlyst',
             description: 'The easiest way to create and manage waitlists for your app.',
