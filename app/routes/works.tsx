@@ -32,11 +32,11 @@ export default function WorksPage() {
             repository: 'https://github.com/emmathedeveloper2/mix-stack'
         },
         {
-            imageSrc: 'https://polla-app.netlify.app/images/twitter_opengraph_dark.png',
+            imageSrc: 'https://polla-app.vercel.app/images/twitter_opengraph_dark.png',
             name: 'Polla',
             description: 'A simple polling app with OAuth',
-            website: 'https://polla-app.netlify.app',
-            repository: 'https://github.com/emmathedeveloper2/polla'
+            website: 'https://polla-app.vercel.app',
+            repository: 'https://github.com/emmathedeveloper/polla'
         },
         {
             imageSrc: 'https://kizicuts.netlify.app/assets/images/twitter_opengraph_dark.png',
